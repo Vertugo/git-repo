@@ -36,7 +36,7 @@ public class Controller implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         editor.setDisable(true);
-        fileChooser.setInitialDirectory(new File("C:"));
+        fileChooser.setInitialDirectory(new File("C:add"));
     }
 
     @FXML
