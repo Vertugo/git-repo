@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="710.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <HTMLEditor fx:id="editor" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutY="172.0" prefHeight="284.0" prefWidth="710.0" />
+      <Button fx:id="fileChoose" layoutX="596.0" layoutY="46.0" mnemonicParsing="false" onAction="#chooseDirectory" prefHeight="25.0" prefWidth="100.0" text="Поиск" />
+      <TextField fx:id="fileName" layoutX="278.0" layoutY="46.0" prefHeight="25.0" prefWidth="307.0" />
+      <Label alignment="CENTER" layoutX="224.0" layoutY="46.0" prefHeight="25.0" prefWidth="46.0" text="File:" />
+      <ComboBox fx:id="themeChoose" layoutX="39.0" layoutY="46.0" onAction="#chooseTheme" prefWidth="150.0" />
+   </children>
+</AnchorPane>
